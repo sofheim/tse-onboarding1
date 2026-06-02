@@ -1,0 +1,23 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.title {
+  font: var(--font-heading);
+}
+
+.container {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.errorModalText {
+  color: blue;
+}
